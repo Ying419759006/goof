@@ -1,10 +1,13 @@
 PODS:
   - MJRefresh (3.1.0)
+  - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
   - MJRefresh
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
 COCOAPODS: 0.39.0

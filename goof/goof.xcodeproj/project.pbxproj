@@ -14,6 +14,22 @@
 		DC07E47B1D0087CE00BE232A /* PictureController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC07E4751D0087CE00BE232A /* PictureController.xib */; };
 		DC07E47C1D0087CE00BE232A /* RecommendTagController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07E4761D0087CE00BE232A /* RecommendTagController.swift */; };
 		DC07E47D1D0087CE00BE232A /* TopicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07E4771D0087CE00BE232A /* TopicController.swift */; };
+		DC07E4821D00924400BE232A /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07E47E1D00924400BE232A /* Comment.swift */; };
+		DC07E4831D00924400BE232A /* RecommendTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07E47F1D00924400BE232A /* RecommendTag.swift */; };
+		DC07E4841D00924400BE232A /* ZYTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07E4801D00924400BE232A /* ZYTopic.swift */; };
+		DC07E4851D00924400BE232A /* ZYUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07E4811D00924400BE232A /* ZYUser.swift */; };
+		DC07E4921D00925700BE232A /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07E4861D00925700BE232A /* CommentCell.swift */; };
+		DC07E4931D00925700BE232A /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC07E4871D00925700BE232A /* CommentCell.xib */; };
+		DC07E4941D00925700BE232A /* RecommendTagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07E4881D00925700BE232A /* RecommendTagCell.swift */; };
+		DC07E4951D00925700BE232A /* RecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC07E4891D00925700BE232A /* RecommendTagCell.xib */; };
+		DC07E4961D00925700BE232A /* TopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07E48A1D00925700BE232A /* TopicCell.swift */; };
+		DC07E4971D00925700BE232A /* TopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC07E48B1D00925700BE232A /* TopicCell.xib */; };
+		DC07E4981D00925700BE232A /* TopicPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07E48C1D00925700BE232A /* TopicPictureView.swift */; };
+		DC07E4991D00925700BE232A /* TopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC07E48D1D00925700BE232A /* TopicPictureView.xib */; };
+		DC07E49A1D00925700BE232A /* TopicVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07E48E1D00925700BE232A /* TopicVideoView.swift */; };
+		DC07E49B1D00925700BE232A /* TopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC07E48F1D00925700BE232A /* TopicVideoView.xib */; };
+		DC07E49C1D00925700BE232A /* TopicVoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07E4901D00925700BE232A /* TopicVoiceView.swift */; };
+		DC07E49D1D00925700BE232A /* TopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC07E4911D00925700BE232A /* TopicVoiceView.xib */; };
 		DCAF6AE21CFD3FB800F88164 /* CALayer+sz.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF6AC21CFD3FB800F88164 /* CALayer+sz.swift */; };
 		DCAF6AE31CFD3FB800F88164 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF6AC31CFD3FB800F88164 /* UIView+Extension.swift */; };
 		DCAF6AE41CFD3FB800F88164 /* QQLrcDataTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF6AC51CFD3FB800F88164 /* QQLrcDataTool.swift */; };
@@ -80,7 +96,7 @@
 		DCE15F0E1CFC1A5600E19D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE15F0C1CFC1A5600E19D4C /* LaunchScreen.storyboard */; };
 		DCE15F2F1CFC25E100E19D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE15F291CFC25E100E19D4C /* AppDelegate.swift */; };
 		DCE15F351CFC26F200E19D4C /* ZYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE15F341CFC26F200E19D4C /* ZYTabBarController.swift */; };
-		DCE15F371CFC419C00E19D4C /* JokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE15F361CFC419C00E19D4C /* JokeController.swift */; };
+		DCE15F371CFC419C00E19D4C /* CreamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE15F361CFC419C00E19D4C /* CreamController.swift */; };
 		DCE15F391CFC41C900E19D4C /* PhotoesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE15F381CFC41C900E19D4C /* PhotoesController.swift */; };
 		DCE15F3D1CFC41FE00E19D4C /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE15F3C1CFC41FE00E19D4C /* NewsController.swift */; };
 		DCE15F431CFC696100E19D4C /* ZYTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE15F421CFC696100E19D4C /* ZYTabBar.swift */; };
@@ -97,6 +113,22 @@
 		DC07E4751D0087CE00BE232A /* PictureController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PictureController.xib; sourceTree = "<group>"; };
 		DC07E4761D0087CE00BE232A /* RecommendTagController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendTagController.swift; sourceTree = "<group>"; };
 		DC07E4771D0087CE00BE232A /* TopicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicController.swift; sourceTree = "<group>"; };
+		DC07E47E1D00924400BE232A /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		DC07E47F1D00924400BE232A /* RecommendTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendTag.swift; sourceTree = "<group>"; };
+		DC07E4801D00924400BE232A /* ZYTopic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYTopic.swift; sourceTree = "<group>"; };
+		DC07E4811D00924400BE232A /* ZYUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYUser.swift; sourceTree = "<group>"; };
+		DC07E4861D00925700BE232A /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		DC07E4871D00925700BE232A /* CommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
+		DC07E4881D00925700BE232A /* RecommendTagCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendTagCell.swift; sourceTree = "<group>"; };
+		DC07E4891D00925700BE232A /* RecommendTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendTagCell.xib; sourceTree = "<group>"; };
+		DC07E48A1D00925700BE232A /* TopicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicCell.swift; sourceTree = "<group>"; };
+		DC07E48B1D00925700BE232A /* TopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicCell.xib; sourceTree = "<group>"; };
+		DC07E48C1D00925700BE232A /* TopicPictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicPictureView.swift; sourceTree = "<group>"; };
+		DC07E48D1D00925700BE232A /* TopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicPictureView.xib; sourceTree = "<group>"; };
+		DC07E48E1D00925700BE232A /* TopicVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicVideoView.swift; sourceTree = "<group>"; };
+		DC07E48F1D00925700BE232A /* TopicVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicVideoView.xib; sourceTree = "<group>"; };
+		DC07E4901D00925700BE232A /* TopicVoiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicVoiceView.swift; sourceTree = "<group>"; };
+		DC07E4911D00925700BE232A /* TopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicVoiceView.xib; sourceTree = "<group>"; };
 		DCAF6AC21CFD3FB800F88164 /* CALayer+sz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+sz.swift"; sourceTree = "<group>"; };
 		DCAF6AC31CFD3FB800F88164 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		DCAF6AC51CFD3FB800F88164 /* QQLrcDataTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QQLrcDataTool.swift; sourceTree = "<group>"; };
@@ -165,7 +197,7 @@
 		DCE15F0F1CFC1A5600E19D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCE15F291CFC25E100E19D4C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCE15F341CFC26F200E19D4C /* ZYTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYTabBarController.swift; sourceTree = "<group>"; };
-		DCE15F361CFC419C00E19D4C /* JokeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeController.swift; sourceTree = "<group>"; };
+		DCE15F361CFC419C00E19D4C /* CreamController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreamController.swift; sourceTree = "<group>"; };
 		DCE15F381CFC41C900E19D4C /* PhotoesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoesController.swift; sourceTree = "<group>"; };
 		DCE15F3C1CFC41FE00E19D4C /* NewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsController.swift; sourceTree = "<group>"; };
 		DCE15F421CFC696100E19D4C /* ZYTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYTabBar.swift; sourceTree = "<group>"; };
@@ -420,7 +452,7 @@
 			isa = PBXGroup;
 			children = (
 				DCE15F301CFC26B500E19D4C /* Main */,
-				DCE15F181CFC25E100E19D4C /* Joke(爆笑段子) */,
+				DCE15F181CFC25E100E19D4C /* Cream(爆笑段子) */,
 				DCE15F1C1CFC25E100E19D4C /* Photoes(女神相册) */,
 				DCE15F201CFC25E100E19D4C /* Music(音乐) */,
 				DCE15F241CFC25E100E19D4C /* News(新闻) */,
@@ -430,20 +462,21 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		DCE15F181CFC25E100E19D4C /* Joke(爆笑段子) */ = {
+		DCE15F181CFC25E100E19D4C /* Cream(爆笑段子) */ = {
 			isa = PBXGroup;
 			children = (
 				DCE15F191CFC25E100E19D4C /* Controller */,
 				DCE15F1A1CFC25E100E19D4C /* Model */,
 				DCE15F1B1CFC25E100E19D4C /* View */,
 			);
+			name = "Cream(爆笑段子)";
 			path = "Joke(爆笑段子)";
 			sourceTree = "<group>";
 		};
 		DCE15F191CFC25E100E19D4C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DCE15F361CFC419C00E19D4C /* JokeController.swift */,
+				DCE15F361CFC419C00E19D4C /* CreamController.swift */,
 				DC07E4721D0087CE00BE232A /* CommentController.swift */,
 				DC07E4731D0087CE00BE232A /* CommentController.xib */,
 				DC07E4741D0087CE00BE232A /* PictureController.swift */,
@@ -457,6 +490,10 @@
 		DCE15F1A1CFC25E100E19D4C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DC07E47E1D00924400BE232A /* Comment.swift */,
+				DC07E47F1D00924400BE232A /* RecommendTag.swift */,
+				DC07E4801D00924400BE232A /* ZYTopic.swift */,
+				DC07E4811D00924400BE232A /* ZYUser.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -464,6 +501,18 @@
 		DCE15F1B1CFC25E100E19D4C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DC07E4861D00925700BE232A /* CommentCell.swift */,
+				DC07E4871D00925700BE232A /* CommentCell.xib */,
+				DC07E4881D00925700BE232A /* RecommendTagCell.swift */,
+				DC07E4891D00925700BE232A /* RecommendTagCell.xib */,
+				DC07E48A1D00925700BE232A /* TopicCell.swift */,
+				DC07E48B1D00925700BE232A /* TopicCell.xib */,
+				DC07E48C1D00925700BE232A /* TopicPictureView.swift */,
+				DC07E48D1D00925700BE232A /* TopicPictureView.xib */,
+				DC07E48E1D00925700BE232A /* TopicVideoView.swift */,
+				DC07E48F1D00925700BE232A /* TopicVideoView.xib */,
+				DC07E4901D00925700BE232A /* TopicVoiceView.swift */,
+				DC07E4911D00925700BE232A /* TopicVoiceView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -693,6 +742,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCAF6B391CFD3FD600F88164 /* 10736444.lrc in Resources */,
+				DC07E4951D00925700BE232A /* RecommendTagCell.xib in Resources */,
 				DCAF6B341CFD3FD600F88164 /* wf@2x.jpg in Resources */,
 				DCAF6B4B1CFD3FD600F88164 /* 339744.mp3 in Resources */,
 				DCAF6B461CFD3FD600F88164 /* 12309111.mp3 in Resources */,
@@ -700,6 +750,8 @@
 				DCAF6B421CFD3FD600F88164 /* 10405520.mp3 in Resources */,
 				DCAF6B471CFD3FD600F88164 /* 14945107.mp3 in Resources */,
 				DCAF6B4A1CFD3FD600F88164 /* 309769.mp3 in Resources */,
+				DC07E4971D00925700BE232A /* TopicCell.xib in Resources */,
+				DC07E49B1D00925700BE232A /* TopicVideoView.xib in Resources */,
 				DCAF6B381CFD3FD600F88164 /* 10405520.lrc in Resources */,
 				DCAF6B3E1CFD3FD600F88164 /* 255319.lrc in Resources */,
 				DCAF6B291CFD3FD600F88164 /* eason_icon@2x.jpg in Resources */,
@@ -709,6 +761,7 @@
 				DCAF6B2C1CFD3FD600F88164 /* jj@2x.jpg in Resources */,
 				DCAF6B4E1CFD402400F88164 /* QQListTVC.storyboard in Resources */,
 				DCAF6B3C1CFD3FD600F88164 /* 14945107.lrc in Resources */,
+				DC07E49D1D00925700BE232A /* TopicVoiceView.xib in Resources */,
 				DCAF6B371CFD3FD600F88164 /* zxy_icon@2x.jpg in Resources */,
 				DC07E47B1D0087CE00BE232A /* PictureController.xib in Resources */,
 				DCAF6B361CFD3FD600F88164 /* zxy@2x.jpg in Resources */,
@@ -717,10 +770,12 @@
 				DCAF6B251CFD3FD600F88164 /* bb_icon@2x.jpg in Resources */,
 				DCAF6B411CFD3FD600F88164 /* 月半小夜曲.lrc in Resources */,
 				DCAF6B481CFD3FD600F88164 /* 235319.mp3 in Resources */,
+				DC07E4931D00925700BE232A /* CommentCell.xib in Resources */,
 				DCAF6B2E1CFD3FD600F88164 /* kzxd@2x.jpg in Resources */,
 				DCAF6B441CFD3FD600F88164 /* 1201111234.mp3 in Resources */,
 				DCAF6B2D1CFD3FD600F88164 /* jj_icon@2x.png in Resources */,
 				DCAF6B301CFD3FD600F88164 /* lkq@2x.jpg in Resources */,
+				DC07E4991D00925700BE232A /* TopicPictureView.xib in Resources */,
 				DCAF6B3D1CFD3FD600F88164 /* 235319.lrc in Resources */,
 				DCAF6B2A1CFD3FD600F88164 /* jay@2x.jpg in Resources */,
 				DCAF6B351CFD3FD600F88164 /* wf_icon@2x.jpg in Resources */,
@@ -806,16 +861,21 @@
 				DCE15F431CFC696100E19D4C /* ZYTabBar.swift in Sources */,
 				DCAF6AF21CFD3FB800F88164 /* QQLrcLabel.swift in Sources */,
 				DCAF6AE51CFD3FB800F88164 /* QQMusicDataTool.swift in Sources */,
+				DC07E49A1D00925700BE232A /* TopicVideoView.swift in Sources */,
 				DCAF6AF51CFD3FB800F88164 /* QQMusicListCell.swift in Sources */,
 				DCE15F3D1CFC41FE00E19D4C /* NewsController.swift in Sources */,
 				DCE15F351CFC26F200E19D4C /* ZYTabBarController.swift in Sources */,
 				DCAF6AE31CFD3FB800F88164 /* UIView+Extension.swift in Sources */,
+				DC07E4821D00924400BE232A /* Comment.swift in Sources */,
 				DC07E4781D0087CE00BE232A /* CommentController.swift in Sources */,
-				DCE15F371CFC419C00E19D4C /* JokeController.swift in Sources */,
+				DCE15F371CFC419C00E19D4C /* CreamController.swift in Sources */,
+				DC07E4921D00925700BE232A /* CommentCell.swift in Sources */,
 				DCAF6AE21CFD3FB800F88164 /* CALayer+sz.swift in Sources */,
 				DC07E47A1D0087CE00BE232A /* PictureController.swift in Sources */,
 				DCAF6AEF1CFD3FB800F88164 /* QQMusicMessageModel.swift in Sources */,
 				DC07E47C1D0087CE00BE232A /* RecommendTagController.swift in Sources */,
+				DC07E4981D00925700BE232A /* TopicPictureView.swift in Sources */,
+				DC07E4841D00924400BE232A /* ZYTopic.swift in Sources */,
 				DCE15F491CFC808500E19D4C /* PublishController.swift in Sources */,
 				DCAF6AEA1CFD3FB800F88164 /* QQMusicTool.swift in Sources */,
 				DC07E47D1D0087CE00BE232A /* TopicController.swift in Sources */,
@@ -823,10 +883,15 @@
 				DCAF6AEB1CFD3FB800F88164 /* QQTimeTool.swift in Sources */,
 				DCE15F2F1CFC25E100E19D4C /* AppDelegate.swift in Sources */,
 				DCAF6AEC1CFD3FB800F88164 /* QQDetailVC.swift in Sources */,
+				DC07E4831D00924400BE232A /* RecommendTag.swift in Sources */,
 				DCAF6AE81CFD3FB800F88164 /* QQImageTool.swift in Sources */,
+				DC07E49C1D00925700BE232A /* TopicVoiceView.swift in Sources */,
 				DCE15F391CFC41C900E19D4C /* PhotoesController.swift in Sources */,
 				DCAF6AE41CFD3FB800F88164 /* QQLrcDataTool.swift in Sources */,
 				DCAF6AE91CFD3FB800F88164 /* QQMusicOperationTool.swift in Sources */,
+				DC07E4851D00924400BE232A /* ZYUser.swift in Sources */,
+				DC07E4961D00925700BE232A /* TopicCell.swift in Sources */,
+				DC07E4941D00925700BE232A /* RecommendTagCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,7 +14,7 @@ class PictureController: UIViewController {
     @IBOutlet weak var scrollView: UIScrollView!
     let imageView = UIImageView.init()
     /**  topic  */
-    var topic:WBTopic?
+    var topic:ZYTopic?
    
     override func viewDidLoad() {
         super.viewDidLoad()
